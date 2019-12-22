@@ -18,6 +18,7 @@ poetry = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
+pytest-cov = "*"
 
 [tool.poetry.scripts]
 poetry-setup = "poetry_setup.core:main"

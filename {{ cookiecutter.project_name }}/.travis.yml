@@ -15,3 +15,7 @@ script: tox
 install:
     - pip install tox
     - pip install poetry
+    - pip install codecov
+
+after_success:
+    - codecov

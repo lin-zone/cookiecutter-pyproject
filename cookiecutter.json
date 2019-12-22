@@ -1,0 +1,12 @@
+{
+    "author_name": "lin-zone",
+    "author_email": "z_one10@163.com",
+    "github_username": "lin-zone",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "project_name": "cookiecutter_pyproject",
+    "github_repository": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}",
+    "project_description": "A cookiecutter template for Python project",
+    "version": "0.1.0",
+    "license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+  }
+  

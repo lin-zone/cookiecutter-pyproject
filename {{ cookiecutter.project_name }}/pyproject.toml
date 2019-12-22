@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "{{ cookiecutter.version }}"
+description = "{{ cookiecutter.project_description }}"
+authors = [
+    "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email}}>",
+]
+license = "{{ cookiecutter.license }}"
+readme = "README.md"
+repository = "{{ cookiecutter.github_repository }}"
+keywords = ["packaging", "dependency", "poetry", "setuptools", "pip"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+autopep8 = "*"
+jinja2 = "*"
+poetry = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.poetry.scripts]
+poetry-setup = "poetry_setup.core:main"
